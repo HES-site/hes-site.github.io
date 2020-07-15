@@ -1,0 +1,16 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2020 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="email-24px" unicode="&#xe800;" d="M917 600c0 46-38 83-84 83h-666c-46 0-84-37-84-83v-500c0-46 38-83 84-83h666c46 0 84 37 84 83v500z m-84 0l-333-208-333 208h666z m0-500h-666v417l333-209 333 209v-417z" horiz-adv-x="1000" />
+
+<glyph glyph-name="phone-24px" unicode="&#xe801;" d="M273 642c2-37 8-74 18-108l-50-50c-17 50-28 103-31 158h63m410-501c36-10 72-16 109-19v-62c-55 4-108 15-159 31l50 50m-370 584h-146c-23 0-42-19-42-42 0-391 317-708 708-708 23 0 42 19 42 42v145c0 23-19 42-42 42-51 0-102 8-148 24-5 1-9 2-13 2-11 0-22-5-30-12l-92-92c-117 60-214 157-274 274l92 92c11 12 15 28 10 43-15 46-24 96-24 148 0 23-19 42-41 42z" horiz-adv-x="1000" />
+
+<glyph glyph-name="schedule-24px" unicode="&#xe802;" d="M500 767c-230 0-417-187-417-417s187-417 417-417c230 0 417 187 417 417s-187 417-417 417z m0-750c-184 0-333 149-333 333s149 333 333 333 333-149 333-333-149-333-333-333z m21 541h-63v-250l219-131 31 51-187 112z" horiz-adv-x="1000" />
+</font>
+</defs>
+</svg>
