@@ -74,7 +74,7 @@
          <div class="card-deck mb-3 text-center">
             <div class="card mb-4 box-shadow">
                <div class="card-header">
-                  <h4 class="my-0 font-weight-normal ">Proofreading and correction service</h4>
+                  <h4 class="my-0 font-weight-normal ">Proofreading and correction</h4>
                </div>
                <div class="card-body">
                   <h1 class="card-title pricing-card-title" id="proofReadingPrice">$0.02&nbsp;<small class="text-muted">/ word</small></h1>
@@ -87,7 +87,7 @@
             </div>
             <div class="card mb-4 box-shadow">
                <div class="card-header">
-                  <h4 class="my-0 font-weight-normal">Standard translation service</h4>
+                  <h4 class="my-0 font-weight-normal">Standard proof-read translation</h4>
                </div>
                <div class="card-body">
                   <h1 class="card-title pricing-card-title" id="translationPrice">$0.04&nbsp;<small class="text-muted">/ word</small></h1>
@@ -100,10 +100,10 @@
             </div>
             <div class="card mb-4 box-shadow">
                <div class="card-header">
-                  <h4 class="my-0 font-weight-normal ">Original text composition</h4>
+                  <h4 class="my-0 font-weight-normal ">Rewriting and paraphrasing</h4>
                </div>
                <div class="card-body">
-                  <h1 class="card-title pricing-card-title" id="originalCompositionPrice">$0.2&nbsp;<small class="text-muted">/ word</small></h1>
+                  <h1 class="card-title pricing-card-title" id="originalCompositionPrice">$0.05&nbsp;<small class="text-muted">/ word</small></h1>
                </div>
                <ul class="list-group list-group-flush">
                   <li class="list-group-item">Paraphrasing to reduce similarity results</li>
@@ -331,7 +331,7 @@
          			if(inputVal===null||inputVal.length==0){resetPrices()}
          			else{
          			inputVal=inputVal.replace(/\D/,'');
-         document.getElementById("originalCompositionPrice").innerHTML ="$"+(inputVal*0.2).toFixed(2);
+         document.getElementById("originalCompositionPrice").innerHTML ="$"+(inputVal*0.05).toFixed(2);
          document.getElementById("translationPrice").innerHTML = "$"+(inputVal*0.04).toFixed(2);
          document.getElementById("proofReadingPrice").innerHTML ="$"+(inputVal*0.02).toFixed(2);
          			}
@@ -341,7 +341,7 @@
          });
          function resetPrices() {
                     
-         document.getElementById("originalCompositionPrice").innerHTML ="$0.2&nbsp;<small class=\"text-muted\">/ word</small>";
+         document.getElementById("originalCompositionPrice").innerHTML ="$0.05&nbsp;<small class=\"text-muted\">/ word</small>";
          document.getElementById("translationPrice").innerHTML = "$0.04&nbsp;<small class=\"text-muted\">/ word</small>";
          document.getElementById("proofReadingPrice").innerHTML =
          "$0.02&nbsp;<small class=\"text-muted\">/ word</small>";
