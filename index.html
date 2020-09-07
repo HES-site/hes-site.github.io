@@ -85,7 +85,7 @@
                   <li class="list-group-item">We provide a list of the changes we made</li>
                </ul>
             </div>
-            <div class="card mb-4 box-shadow">
+            <!--div class="card mb-4 box-shadow">
                <div class="card-header">
                   <h4 class="my-0 font-weight-normal">Standard proof-read translation</h4>
                </div>
@@ -97,17 +97,17 @@
                   <li class="list-group-item">Can be done for any field</li>
                   <li class="list-group-item">We currently only offer translation from Arabic</li>
                </ul>
-            </div>
+            </div-->
             <div class="card mb-4 box-shadow">
                <div class="card-header">
                   <h4 class="my-0 font-weight-normal ">Rewriting and paraphrasing</h4>
                </div>
                <div class="card-body">
-                  <h1 class="card-title pricing-card-title" id="originalCompositionPrice">$0.05&nbsp;<small class="text-muted">/ word</small></h1>
+                  <h1 class="card-title pricing-card-title" id="originalCompositionPrice">$0.035&nbsp;<small class="text-muted">/ word</small></h1>
                </div>
                <ul class="list-group list-group-flush">
                   <li class="list-group-item">Paraphrasing to reduce similarity results</li>
-                  <li class="list-group-item">Composing a literature review (limited fields only. Contact us for more details)</li>
+                  <li class="list-group-item">Helps you improve the over-all quality of your scientific publication</li>
                </ul>
             </div>
          </div>
@@ -331,8 +331,8 @@
          			if(inputVal===null||inputVal.length==0){resetPrices()}
          			else{
          			inputVal=inputVal.replace(/\D/,'');
-         document.getElementById("originalCompositionPrice").innerHTML ="$"+(inputVal*0.05).toFixed(2);
-         document.getElementById("translationPrice").innerHTML = "$"+(inputVal*0.04).toFixed(2);
+         document.getElementById("originalCompositionPrice").innerHTML ="$"+(inputVal*0.035).toFixed(2);
+         //document.getElementById("translationPrice").innerHTML = "$"+(inputVal*0.04).toFixed(2);
          document.getElementById("proofReadingPrice").innerHTML ="$"+(inputVal*0.02).toFixed(2);
          			}
          });
@@ -341,8 +341,8 @@
          });
          function resetPrices() {
                     
-         document.getElementById("originalCompositionPrice").innerHTML ="$0.05&nbsp;<small class=\"text-muted\">/ word</small>";
-         document.getElementById("translationPrice").innerHTML = "$0.04&nbsp;<small class=\"text-muted\">/ word</small>";
+         document.getElementById("originalCompositionPrice").innerHTML ="$0.035&nbsp;<small class=\"text-muted\">/ word</small>";
+         //document.getElementById("translationPrice").innerHTML = "$0.04&nbsp;<small class=\"text-muted\">/ word</small>";
          document.getElementById("proofReadingPrice").innerHTML =
          "$0.02&nbsp;<small class=\"text-muted\">/ word</small>";
          }
